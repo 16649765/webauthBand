@@ -1,0 +1,362 @@
+body {
+	font-family: Courier New;
+	background-color: white;
+	color: black
+	
+	
+}
+
+.grid{
+	width: 80%;
+	margin: 0 auto;
+	display: grid;
+	grid-template-columns: 60% 40%;
+	grid-auto-rows:minmax(100px, auto);
+	grid-gap: 1em;
+	justify-items: center;
+}
+.grid > div{
+	
+	Background: #eee;
+	padding: 1em;
+}
+.grid > div:nth-child(odd){
+	background:#ddd
+}
+.grid1{
+	grid-template-columns: 40% 60%;
+	width: 80%;
+	margin: 0 auto;
+	display: grid;
+	
+	grid-gap: 1em;
+}
+.grid1 > div{
+	
+	Background: #eee;
+	padding: 1em;
+}
+.grid1 > div:nth-child(odd){
+	background:#ddd
+}
+.MusicText{
+Position: absolute;
+top: 1100px;
+left: 33%
+}
+
+
+.Navcontainer {
+	width: 80%;
+	margin: 0 auto;
+	
+	top: 0;
+}
+.MusicEmbedLvl1{
+	width: 80%;
+	Padding-top: 40px;
+	padding-left: 12px;
+	margin: 0 auto;
+	background-color: White;
+}
+.MusicEmbedLvl2{
+	
+	width: 80%;
+	Padding-top: 40px;
+	padding-left: 12px;
+	margin: 0 auto;
+	background-color: White;
+	
+	
+	
+}
+.expectations{
+	position: absolute;
+	Top: 1000px;
+	Left: 10%;
+}
+.TheRunAround{
+	position: absolute;
+	Top: 1000px;
+	Right: 10%;
+}
+.fools{
+	position: absolute;
+	Top: 1500px;
+	Left: 10%;
+	
+}
+.PillowTalk{
+	position: absolute;
+    Top: 1500px;
+	Right: 10%;
+	
+}
+
+header { 
+
+Background: rgba(255,255,255,.8);
+
+	top: 0;
+
+}
+
+Header::after {
+	content: '';
+	display: table;
+	clear: both;
+}
+
+.homeimage1{
+	width: 100%;
+	height: auto%;
+}
+.Music1{
+	width: 100%;
+	height: auto%;
+}
+.Logo {
+	float: left;
+	padding: 10px 0;
+}
+
+nav{
+	float: Right;
+}
+nav ul {
+	Margin: 0;
+	Padding: 0;
+	list-style: none;
+}
+
+nav li {
+	display: inline-block;
+	Margin-left: 70px;
+	padding-top: 25px;
+	
+	position: relative;
+}
+
+nav a {
+	color: black;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 14px;
+	font-family: Consolas;
+	font-weight: bold;
+}
+
+nav a:hover {
+	Color: #e60000
+}
+
+nav a::before {
+	content: '';
+	display: block;
+	height: 5px;
+	width: 100%;
+	background-color: black;
+	
+	position: absolute;
+	top: 0;
+	width: 0%;
+	
+	transition: all ease-in-out 300ms;
+}
+
+nav a:hover::before {
+	width: 100%;
+}
+.Search {
+	width: 600px;
+	float: left;
+	Padding: 20px;
+	margin-left: 20px;
+}	
+
+.submit {
+	width:70px;
+	height:20px;
+	border-radius:10px;
+	border:none;
+	color:black;
+	background: white;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+.submit:hover {
+	Color: #e60000
+}
+.user-menu {
+	
+	float: right;
+	Margin: 20px;
+	
+}
+.user-menu li {
+	float:left;
+	padding-right: 10px;
+	text-align: center;
+	list-style: none;
+	font-weight: bold;
+	text-transform: uppercase;
+	color:black;
+}
+
+.user-menu li a{
+	color:black;
+	text-decoration: none;
+}
+
+.user-menu li a:hover{
+	color:#e60000;
+}
+
+.slider {
+
+margin: 0 auto;
+}
+.BannerImage {
+	Margin: 0 auto;
+	width: 100%;
+	height: auto;
+}
+.products {
+	width:90%;
+	margin: 0 auto;	
+}
+.productbox {
+	width: 235px;
+	height: 300px;
+	overflow: hidden;
+	margin: 30;
+	position:relative;
+	float: left;
+}
+.productbox>img{
+	max-width:100%;
+}
+.prod-Hover {
+	Background: rgba(0,0,0,0.6);
+	width: 100%;
+	Height: 100%;
+	top: 0;
+	Left: 0;
+	Bottom:0;
+	right:0;
+	position: absolute;
+	opacity: 0;
+	transition:all .5s ease;
+}
+.productbox:hover .prod-Hover{
+	opacity:1;
+	transition:all .5s ease;
+}
+.Prod-Feat {
+	text-align: center;
+	margin-top: -150px;
+	transition:all .5s ease;
+	}
+.Prod-Feat p {
+	font-weight: bold;
+	color: white;
+	}
+.productbox:hover .prod-feat {
+	margin-top: 150px;
+	transition:all .5s ease;
+}
+.shoppingcart {
+	
+
+}
+.cthead {
+	font-weight:bold;
+	font-size: 1.25em;
+	color: black;
+}
+.ctcol {	
+	Border-bottom: 1px solid black;
+	Margin-right: 1.5em;
+	padding-bottom: 10px;
+	margin-top: 10px;
+	align-items: center;
+}
+.ctro {
+	display: flex;
+}
+.ctIt {
+	width: 45%;
+	
+}
+
+.ctpri {
+	width: 20%;
+	
+}
+.ctqu {
+	width:35%
+}
+.cart-item-title {
+	colour: black;
+	margin-left: .5em;
+	font-size: 1.2em;
+}
+
+.cart-item-image {
+	width: 75px;
+	height: auto;
+	border-radius: 10px;
+}
+
+.butDan {
+	color: white;
+	background-color: #e60000;
+	border: none;
+	border-radius: .3em;
+	font-weight: bold;
+}
+	
+.butDan:hover {
+	background-color: darkred;
+}
+
+.ctqu-input {
+	height: 34px;
+	width: 50px;
+	border-radius: 5px;
+	border: 1px solid #e60000;
+	background-color: #eee;
+	padding: 0;
+	text-align: center;
+	font-size: 1em;
+	margin: 25px;
+}
+.ctro:last-child {
+	border-bottom: 1px solid black;
+}
+.ctro:last-child .ctcol{
+	border: none;
+}
+.cttot{
+text-align: end;
+margin-top: 10px;
+margin-right: 10px;
+}
+.cttotit  {
+	font-weight: bold;
+	font-size: 1.5 em;
+	margin-right: 20px;
+}	
+.cttotpric {
+	font-size: 1.5em;
+}
+
+.butpur {
+	display: block;
+	margin: 40 auto 80px auto;
+	font-size: 1.75em;
+}
+
+
+	
+	
