@@ -266,8 +266,8 @@ margin: 0 auto;
 	transition:all .5s ease;
 }
 .shoppingcart {
-	
-
+	position: absolute;
+	Top: 1500px;
 }
 .cthead {
 	font-weight:bold;
